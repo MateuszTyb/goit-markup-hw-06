@@ -54,33 +54,44 @@
         </p>
         <form>
           <ul class="form-list list">
-            <li class="form-item"></li><p class="form-sup">Imie</p><label class="modal-label">
-              <input type="text" name="name" class="modal-item"><svg class="modal-icon"
-                width="18" height="18">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </label>
-            <li class="form-item"></li><p class="form-sup">Telefon</p><label class="modal-label">
-              <input type="tel" name="phone" class="modal-item"><svg class="modal-icon"
-                width="18" height="18">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </label>
-            <li class="form-item"></li><p class="form-sup">E-mail</p><label class="modal-label">
-              <input type="email" name="email" class="modal-item"><svg class="modal-icon"
-                width="18" height="18">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </label>
-            <li class="form-item"></li> <p class="form-sup">Komentarz</p><label class="modal-label">
-             <textarea type="text" name="comment" class="modal-item comment" rows=u5
-                placeholder="Wprowadź tekst"></textarea>
-            </label>
-            <label class="checkbox-label">
-              <input  class="checkbox" type="checkbox" name="statute">
-              <span class="checkbox-icon"></span>
-              <p class="statute-box"> Oświadczam iż akceptuję  <a href="" class="statute">Regulamin</a> i <a href="" class="policy">Politykę Prywatności</a> </p>
-            </label>
+            <li class="form-item"><label class="user-name">Imie</label>
+              <span class='modal-form-input'>
+                <input type="text" name="user-name" id="user-name" class="modal-item">
+                <span class='modal-form-icon'>
+                  <svg class="modal-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg></span>
+            </li>
+            <li class="form-item"><label class="user-phone">Telefon</label>
+              <span class='modal-form-input'>
+                <input type="tel" name="user-phone" id="user-phone" class="modal-item">
+                <span class='modal-form-icon'>
+                  <svg class="modal-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                  </svg></span>
+            </li>
+            <li class="form-item"><label class="user-mail">E-mail</label>
+              <span class='modal-form-input'>
+                <input type="email" name="user-mail" id="user-mail" class="modal-item">
+                <span class='modal-form-icon'>
+                  <svg class="modal-icon" width="18" height="18">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg></span>
+            </li>
+            <li class="form-item"><label class="user-opinion">Komentarz</label>
+              <span class='modal-form-input'>
+                <textarea id="user-opinion" type="text" id="user-opinion" name="user-opinion" placeholder="Wpisz tekst"
+                  class="modal-item comment" rows="5"></textarea>
+              </span>
+            </li>
+            <span class="checkbox-label">
+              <input class="checkbox" value="checked" type="checkbox" name="statute">
+              <span class="checkmark"><svg class="icon" width=11 height=8>
+                <use href="./images/icons.svg#icon-check">
+              </svg></span>
+              <p class="statute-box"> Oświadczam iż akceptuję <a href="" class="statute">Regulamin</a> i <a href=""
+                  class="policy">Politykę Prywatności</a> </p>
+            </span>
           </ul>
           <button type="submit" class="modal-btn">Wyślij</button>
         </form>
@@ -267,7 +278,7 @@
           <li class="item"><a class="customer-link" href="link"><svg class="icon" width=170 height=92>
                 <use href="./images/icons.svg#icon-logo3"></use>
               </svg></a></li>
-          <li class="item"><a class="customer-link" href="link"><svg class="icon" width=170 height=92>
+          <li class="item"><a class="customer-link" href="link"><svg class="icon" width=84 height=40>
                 <use href="./images/icons.svg#icon-logo4"></use>
               </svg></a></li>
           <li class="item"><a class="customer-link" href="link"><svg class="icon" width=170 height=92>
