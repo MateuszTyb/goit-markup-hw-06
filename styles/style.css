@@ -464,9 +464,8 @@ textarea {
   color: var(--third-color);
   border-color: var(--secondary-color);
   background-color: var(--secondary-color);
-  background-image: url('./images/icons.svg#icon-check');
+  background-image: url('../images/check.svg');
   background-repeat: no-repeat;
-  
 }
 .checkbox:hover{
   border-color: var(--secondary-color);
