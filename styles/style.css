@@ -444,12 +444,8 @@ textarea {
   text-decoration: underline;
 }
 
-
-.checkbox{
-  appearance: none
-}
-
 .checkbox {
+  appearance: none
   width: 16px;
   height: 15px;
   border: 2px solid var(--main-color);
